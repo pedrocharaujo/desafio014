@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {       
+    border-collapse: collapse;
+    width: 450px;
+    height: 300px;
+}
+
+thead {
+    background-color: rgb(110, 110, 110);
+    color: white;    
+}
+
+th {
+    border: 1px solid black;
+    
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+tr.medias  {
+    background-color: rgb(165, 165, 165);
+    color: rgb(0, 0, 0);      
+    
+}
+
+tr.medias #num {
+    font-weight: bold;
+}
+
+tr.medias #title {
+    font-size: 1.1em;
+}
